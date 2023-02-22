@@ -1,0 +1,10 @@
+version: "3"
+
+volumes:
+    dist20:
+
+services:
+    tictactoe20:
+        build: .
+        volumes:
+            - dist20:/root/TicTacToe/dist
